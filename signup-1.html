@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>signupform</title>
+        <link rel="stylesheet" href="signup.css ">
+    </head>
+    <body>
+
+
+
+        
+        <div class="logo"> <h1>VINTAGE</h1></div>
+        <div class="signupform">
+
+            <h1>Sign Up Now!</h1>
+    <form action="connect.php" method="post" id="myform" >
+
+            <input type="text" class="input-box"  name="usernamee" placeholder="Username" required >
+            <input type="email"  class="input-box"  name="youremaill" placeholder="Your Email" required >
+            <input type="password"  class="input-box" name="yourpasswordd" placeholder="Your Password" required>
+            <p> <input type="checkbox"> I agree to the terms of services</p> 
+            <button type="submit" class="singnupbtn"  name="btn" >Sign up</button> 
+            <hr>
+            <p class="or">OR</p>
+           <button type="submit"    class="singnupbtngoole">Log in with google</button>
+        
+     </form>
+
+                
+          </div>
+          <script>
+            document.getElementById("myform").addEventListener("submit", function() {
+                         window.open("index.html");
+                         });
+          </script>
+            
+        
+    </body>
+</html>
